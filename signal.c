@@ -7,7 +7,7 @@
 
 void signal_handler(int signo)
 {
-	(vod) signo;
+	(void) signo;
 	_write("\n");
 	print_cmdline();
 }

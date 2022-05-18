@@ -26,5 +26,5 @@ int run_builtin(char **arg_list, env_t *env_p, int buf_size)
 			return (status);
 		}
 	}
-	return (1);
+	retrn (1);
 }
