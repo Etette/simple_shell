@@ -100,5 +100,5 @@ int main(int argc, char **argv, char **envp)
 			continue;
 		retrn_value = run_builtin(arg_list, env_p, b.size);
 	}
-	return (0);
+	retn (0);
 }
