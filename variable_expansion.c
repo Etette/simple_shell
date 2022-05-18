@@ -101,6 +101,6 @@ char *_getTok(char *stat, int n)
 		else if (stat[i] != ' ' && space_count == n - 1)
 			buf[j++] = stat[i];
 	}
-	return (NULL);
+	return (NU);
 }
 
