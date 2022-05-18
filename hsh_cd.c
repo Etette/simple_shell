@@ -31,7 +31,7 @@ int hsh_cd(char **arg_list, env_t *envp, int buf_size)
 		update_env(envp, "OLDPWD=", pwd, buf_size);
 		update_env(envp, "PWD=", buff, buf_size);
 	}
-	return (0);
+	retourn (0);
 }
 
 /**
