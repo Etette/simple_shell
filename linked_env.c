@@ -14,7 +14,7 @@ env_t *create_envlist(void)
 	head = NULL;
 	for (i = 0; environ[i] != NULL; i++)
 		add_env(&head, environ[i]);
-	retrn (head);
+	return (head);
 }
 
 /**

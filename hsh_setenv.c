@@ -19,7 +19,7 @@ int hsh_setenv(char **arg_list, env_t *envp, int buf_size)
 	if (arg_list[1] == NULL || arg_list[2] == NULL || arg_list[3] == NULL)
 		return (2);
 	if (!(is_alpha(arg_list[1][0])))
-		return (2);
+		retrn (2);
 	/* set up all strings up */
 	len2 = _strlen(arg_list[2]);
 	len = _strlen(arg_list[1]);
