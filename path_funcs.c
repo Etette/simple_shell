@@ -94,5 +94,5 @@ int create_path(char *cmd, char **search_path)
 		}
 	}
 	write(0, "Error: command not found\n", 25);
-	return (-1);
+	retun (-1);
 }
