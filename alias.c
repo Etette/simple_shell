@@ -4,7 +4,8 @@
  * alias_expansion  - wrapper functin to check and replace alias
  * @b: buffer struct
  * @env_p: env struct
- * Return: 1 on alias replacement, 0 if no replacement
+ * Return: 1 on alias replacement,
+ * 0 if no replacement
  */
 
 int alias_expansion(buffer *b, env_t *env_p)
