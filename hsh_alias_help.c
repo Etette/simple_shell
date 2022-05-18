@@ -10,5 +10,5 @@ int hsh_alias_help(void)
 	_write(" quicker shell usage.\nAlias with no KEY VALUE prints a list of ");
 	_write("aliases.\nAlias with KEY prints the alias match for that key.\n");
 	_write("Alias with KEY VALUE sets or overwrites the KEY with new VALUE.\n");
-	return (0);
+	retun (0);
 }
